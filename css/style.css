@@ -1,0 +1,91 @@
+body{
+    font-size: 18px;
+    position: absolute;
+    top: 15%;
+    left: 17%;
+    right: 17%;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.brand-img img{
+    width: 85px;
+    
+}
+
+  /*MEDIA QUERY*/
+@media(max-width:510px){
+    body{
+        font-size: 14px;
+    }
+    .btn{
+        margin-bottom: 10px;
+    }
+    .logo{
+        width: 120px;
+    }
+    .features{
+        text-align: center;
+    }
+    .features-img{
+        margin-bottom: 15px;
+    }
+    .brand-logo{
+        display: block;
+    }
+    .brand-img img{
+        width: 20%;
+        text-align: center;
+    }
+    .footer{
+        display: block;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+}
+
+@media(max-width:768px){
+    .features-img{
+        margin-top: 75px;
+    }
+    .brand-logo img{
+        width: 10%;
+        display: inline;
+        margin-right: 10px;
+    }
+    .footer{
+        display: inline;
+
+    } 
+}
+
+@media(max-width:375px){
+    .brand-logo img{
+    
+        display: inline;
+        margin-right: 7px;
+    }
+}
+
+
+@media(max-width:425px){
+    .brand-logo img{
+    
+        display: inline;
+        margin-right: 7px;
+    }
+    .footer{
+        display: block;
+
+    } 
+    .brand-logo{
+        display: block;
+        margin-bottom: 20px;
+    }
+    .brand-img img{
+        display: block;
+        width: 10%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+}
+    
